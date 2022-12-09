@@ -112,9 +112,14 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
+  color: #888;
+  font: 300 16px/22px 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
 }
+
 ol,
 ul {
   list-style: none;
@@ -151,6 +156,7 @@ h4,
 h5,
 p {
   margin-bottom: 22px;
+  color: #648880;
 }
 
 .btn {
@@ -165,7 +171,16 @@ p {
 }
 
 .hero {
+  line-height: 44px;
   padding: 22px 80px 66px 80px;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 36px;
+}
+.hero p {
+  font-size: 24px;
+  font-weight: 100;
 }
 
 /*
@@ -188,8 +203,13 @@ p {
 
 .logo {
   border-top: 4px solid #648880;
-  padding: 40px 0 22px 0;
   float: left;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+  text-transform: uppercase;
 }
 
 .primary-footer small {
@@ -219,4 +239,84 @@ p {
 .col-2-3 {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+strong {
+  font-weight: 400;
+}
+cite,
+em {
+  font-style: italic;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a:hover {
+  color: #a9b2b9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a9b2b9;
+}
+
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+
+.tagline {
+  margin: 66px 0 22px 0;
+  text-align: right;
+}
+
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.primary-footer {
+  color: #648880;
+  font-size: 14px;
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+.primary-footer small {
+  float: left;
+  font-weight: 400;
+}
+
+.teaser a:hover h3 {
+  color: #a9b2b9;
+}
+
+.nav {
+  text-align: right;
 }
